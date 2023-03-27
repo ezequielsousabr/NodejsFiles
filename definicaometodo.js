@@ -12,3 +12,5 @@ const obj = {
 }
 
 console.log(obj.foo())
+
+const ScreenClean = setTimeout((clear) => {console.clear() }, 2000);
